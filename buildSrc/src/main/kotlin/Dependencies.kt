@@ -27,11 +27,17 @@ object Libs {
             const val uiTooling = "androidx.compose.ui:ui-tooling:${Versions.compose}"
             const val uiToolingPreview = "androidx.compose.ui:ui-tooling-preview:${Versions.compose}"
             const val material = "androidx.compose.material:material:${Versions.compose}"
+            const val accompanistSystemUi = "com.google.accompanist:accompanist-systemuicontroller:${Versions.accompanist}"
+        }
+
+        object Navigation {
+            const val compose = "androidx.navigation:navigation-compose:2.4.0-alpha08"
         }
 
         object Room {
             const val runtime = "androidx.room:room-runtime:${Versions.room}"
             const val compiler = "androidx.room:room-compiler:${Versions.room}"
+            const val ktx = "androidx.room:room-ktx:${Versions.room}"
         }
 
         object Hilt {
@@ -62,4 +68,5 @@ object Versions {
     const val dataStore = "1.0.0"
     const val dagger = "2.38.1"
     const val coil = "1.3.2"
+    const val accompanist = "0.18.0"
 }

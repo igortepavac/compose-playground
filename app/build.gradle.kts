@@ -59,16 +59,20 @@ dependencies {
     implementation(Libs.AndroidX.Compose.uiUtil)
     implementation(Libs.AndroidX.Compose.uiTooling)
     implementation(Libs.AndroidX.Compose.material)
+    implementation(Libs.AndroidX.Compose.accompanistSystemUi)
     debugImplementation(Libs.AndroidX.Compose.uiToolingPreview)
+
+    implementation(Libs.AndroidX.Navigation.compose)
 
     implementation(Libs.KotlinX.coroutines)
     implementation(Libs.KotlinX.coroutinesAndroid)
 
-    implementation(Libs.AndroidX.Room.runtime)
     kapt(Libs.AndroidX.Room.compiler)
+    implementation(Libs.AndroidX.Room.runtime)
+    implementation(Libs.AndroidX.Room.ktx)
 
-    implementation(Libs.Dagger.hiltAndroid)
     kapt(Libs.Dagger.hiltAndroidCompiler)
+    implementation(Libs.Dagger.hiltAndroid)
     implementation(Libs.AndroidX.Hilt.navigationCompose)
 
     implementation(Libs.Coil.compose)
