@@ -1,0 +1,36 @@
+<resources>
+    <string name="home_nav_events">Događaji</string>
+    <string name="home_nav_menu">Izbornik</string>
+
+    <string name="events_for_you">Događaji za tebe</string>
+    <string name="details">Detalji</string>
+    <string name="back">Natrag</string>
+    <string name="edit">Uredi</string>
+    <string name="delete">Obriši</string>
+    <string name="description">Opis</string>
+    <string name="date">Datum</string>
+    <string name="location">Lokacija</string>
+    <string name="edit_event">Uredi događaj</string>
+    <string name="add_event">Dodaj događaj</string>
+    <string name="menu">Izbornik</string>
+    <string name="artists_overview">Pregled izvođača</string>
+    <string name="add_new_event">Dodaj novi događaj</string>
+    <string name="artists">Izvođači</string>
+    <string name="settings">Postavke</string>
+    <string name="pick_artist">Odaberi izvođača</string>
+    <string name="confirm">Potvrdi</string>
+    <string name="cancel">Odustani</string>
+    <string name="caution">Oprez</string>
+    <string name="save">Spremi</string>
+    <string name="delete_event_confirmation_message">Jesi li siguran da želiš obrisati ovaj događaj?</string>
+    <string name="event_edit_error">Neki podaci nisu popunjeni. Provjeri označena polja.</string>
+    <string name="events_empty_placeholder">Trenutno nema događaja.\Dodaj novi!</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">Svijetla</string>
+    <string name="theme_dark">Tamna</string>
+    <string name="theme_system">Sistemska</string>
+    <string name="settings_language">Jezik</string>
+    <string name="language_english">Engleski</string>
+    <string name="language_croatian">Hrvatski</string>
+    <string name="choose">Odaberi jedno:</string>
+</resources>
