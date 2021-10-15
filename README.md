@@ -1,31 +1,37 @@
 ## Music Event Manager
 
-Aplikacija za vođenje i evidenciju javnih glazbenih događaja.
+Compose app with dummy data which serves as a playground to try out new things in the Android world.
 
-### Funkcionalnosti po ekranima:
+### Description
 
-1. Početni zaslon (splash activity)
-2. Postavke
-    - Promjena jezika aplikacije
-    - Promjena teme aplikacije
-3. Pretraživanje izvođača
-4. Pregled događaja
-5. Unos i uređivanje događaja
+The app primarily serves as a showcase of Compose UI and how to implement a new app with Compose UI.
 
-### Opis
+The implementation consists of a single activity with different composables which are orchestrated with the navigation compose library.
 
-Aplikacija se sastoji od 2 glavna entiteta: **_izvođač_** i **_događaj_**.
+The app has a database with two entities which are in a relationship. There are some input fields for adding new data to the database, but there is no validation on that data.
 
-Korisnik ima mogućnost izvođenja CRUD operacija nad entitetom _događaj_. Jedan ekran se koristi za pregled i brisanje događaja, a drugi za unos i uređivanje pojedinog događaja.
-
-Korisnik može pretraživati entitete izvođača. Popis izvođača dolazi iz predefinirane lokalne baze podataka ili sa jednog od javnih web servisa (npr. Discogs ili Spotify). // TODO: Define which one.
-
-Također postoje postavke aplikacije u kojima je moguće promijeniti jezik i temu aplikacije.
+It is possible to change the app theme in the settings screen. The app can also follow the system theme, if that setting is selected.
 
 ### Tech stack
 - Kotlin
-- Kotlin Coroutines
-- Jetpack libraries - RecyclerView, ViewModel, Room, ktx extensions, etc.
-- Koin - dependency injection
+- Kotlin Coroutines & Flows
+- Compose UI for Android
+- Dagger Hilt - dependency injection
 - Coil - image loading
+- Room - database for the dummy data
+- DataStore - user preferences storage
 - ...
+
+### Screenshots
+<p float="left">
+  <img src="screenshots/s1.png" width="320" />
+  <img src="screenshots/s1_d.png" width="320" />
+</p>
+<p float="left">
+  <img src="screenshots/s2.png" width="320" />
+  <img src="screenshots/s2_d.png" width="320" />
+</p>
+<p float="left">
+  <img src="screenshots/s3.png" width="320" />
+  <img src="screenshots/s3_d.png" width="320" />
+</p>
